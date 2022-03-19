@@ -1,0 +1,65 @@
+{
+  "eventID1": {
+    "planner": "OldAge House",
+    "name": "Wisdom day",
+    "descrption": "",
+    "date": "19/03/2022",
+    "time": "10:30 - 5:00",
+    "length": 6.5,
+    "location": "1200 NW, Washington DC"
+  },
+  "eventID2": {
+    "planner": "Angels Orphanage",
+    "name": "Fun Day",
+    "descrption": "",
+    "date": "20/03/2022",
+    "time": "12:00 - 6:00",
+    "length": 6.0,
+    "location": "2400 Montario Rd, Washington DC"
+  },
+  "eventID3": {
+    "planner": "Environment protectors",
+    "name": "Plastic free DC",
+    "descrption": "",
+    "date": "19/03/2022",
+    "time": "9:00 - 5:00",
+    "length": 8.0,
+    "location": "15th Harvard st, Washington DC"
+  },
+  "eventID4": {
+    "planner": "Food for DC",
+    "name": "Homeless shelter, Pizza day",
+    "descrption": "",
+    "date": "20/03/2022",
+    "time": "12:00 - 4:00",
+    "length": 4.0,
+    "location": "18th st, Adams Morgan"
+  },
+  "eventID5": {
+    "planner": "DC peak health",
+    "name": "Exercise Morning",
+    "descrption": "",
+    "date": "21/03/2022",
+    "time": "5:00 - 12:00",
+    "length": 7.0,
+    "location": "Md hill park, 16th st NW, Washington DC"
+  },
+  "eventID6": {
+    "planner": "Tutors Association DC",
+    "name": "High school mentoring Day",
+    "descrption": "",
+    "date": "19/03/2022",
+    "time": "10:00 - 5:00",
+    "length": 7.0,
+    "location": "DC High School"
+  },
+  "eventID7": {
+    "planner": "DC support group",
+    "name": "Cancer survivors day",
+    "descrption": "",
+    "date": "20/03/2022",
+    "time": "5:00 - 7:00",
+    "length": 2.0,
+    "location": "2455 Columbia st NE, Washington DC"
+  }
+}
