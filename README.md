@@ -12,4 +12,4 @@ Upon Registration, users are redirected **Sign In** and will see their **Total r
 **Flask, Python, HTML, CSS**
 
 ## Running the website
-In the terminal, run '''flask run''' to start the program, and click on the IP adress in the terminal to view the webpage.
+In the terminal, run `flask run` to start the program, and click on the IP adress in the terminal to view the webpage.
