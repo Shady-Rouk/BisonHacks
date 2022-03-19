@@ -6,13 +6,15 @@
     <link rel="stylesheet" href='{{url_for("static", filename="css/style.css")}}'>
   </head>
   <body>
-    <img src="" alt="opportunity-image">
+    
+    
     <h1> {{opp['name']}} </h1>
-    <p> Desc {{opp['description']}} </p>
+    
+    <p> Description: {{opp['description']}} </p>
     <p> Organized by {{opp['planner']}} </p>
-    <p> {{opp['date']}} </p>
-    <p> {{opp['time']}} </p>
-    <p> {{opp['location']}} </p>
+    <p> When: {{opp['date']}} </p>
+    <p> Time: {{opp['time']}} </p>
+    <p> Where: {{opp['location']}} </p>
     <form method='POST' action='/update'>
       <input type='hidden' value={{user_email}} name='email'>
       <input type='hidden' value={{oppId}} name='oppId'>
