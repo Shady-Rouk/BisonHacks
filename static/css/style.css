@@ -46,3 +46,20 @@
     padding: 20px 50px; 
   }
   
+  .opportunity h1{
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .opportunity p{
+    padding: 30px;
+    margin: auto 50px;
+  }
+  
+  body.opportunity{
+    background-image: url('../images/children.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+    font-size: 30px;
+  }

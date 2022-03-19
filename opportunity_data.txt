@@ -2,7 +2,7 @@
   "eventID1": {
     "planner": "OldAge House",
     "name": "Wisdom day",
-    "descrption": "",
+    "description": "Provide company to the elderly, listen to their experiences, learn more about making life decisions.",
     "date": "19/03/2022",
     "time": "10:30 - 5:00",
     "length": 6.5,
@@ -11,7 +11,7 @@
   "eventID2": {
     "planner": "Angels Orphanage",
     "name": "Fun Day",
-    "descrption": "",
+    "description": "Organize games for the children at the orphanage, you're welcome to bring as many games and resources for the kids.",
     "date": "20/03/2022",
     "time": "12:00 - 6:00",
     "length": 6.0,
@@ -20,7 +20,7 @@
   "eventID3": {
     "planner": "Environment protectors",
     "name": "Plastic free DC",
-    "descrption": "",
+    "description": "Visit different littered areas in DC, and clean them, especially free of plastics.",
     "date": "19/03/2022",
     "time": "9:00 - 5:00",
     "length": 8.0,
@@ -29,7 +29,7 @@
   "eventID4": {
     "planner": "Food for DC",
     "name": "Homeless shelter, Pizza day",
-    "descrption": "",
+    "description": "Collect funds or food from donors for pizza in the homeless shelter. ",
     "date": "20/03/2022",
     "time": "12:00 - 4:00",
     "length": 4.0,
@@ -38,7 +38,7 @@
   "eventID5": {
     "planner": "DC peak health",
     "name": "Exercise Morning",
-    "descrption": "",
+    "description": "Participate and encourage people for exercise routine in the mornings for the betterment of Mental, Physical and Spiritual Health of DC.",
     "date": "21/03/2022",
     "time": "5:00 - 12:00",
     "length": 7.0,
@@ -47,7 +47,7 @@
   "eventID6": {
     "planner": "Tutors Association DC",
     "name": "High school mentoring Day",
-    "descrption": "",
+    "description": "Mentor and tutor highschool students, in the subject matters that they require the most.",
     "date": "19/03/2022",
     "time": "10:00 - 5:00",
     "length": 7.0,
@@ -56,7 +56,7 @@
   "eventID7": {
     "planner": "DC support group",
     "name": "Cancer survivors day",
-    "descrption": "",
+    "description": "Join the group of cancer survivors, listen and share your story, encourage people to keep fighting.",
     "date": "20/03/2022",
     "time": "5:00 - 7:00",
     "length": 2.0,

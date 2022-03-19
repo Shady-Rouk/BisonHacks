@@ -9,6 +9,7 @@
     <h1>Hello {{user["email"][:user["email"].find("@")]}}!</h1>
     <h2 class="hours">You are currently registered for a total of {{user_hours}} community service hours</h2>
     <ul class="main-ul">
+     
       {%for x in ev_dict%}
       <li class="main-li">
         <form method='POST' action='/opportunity'>
