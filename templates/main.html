@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BisonHacks Submission</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='{{url_for("static", filename="css/style.css")}}'>
+  </head>
+  <body>
+    <h1>Hello {{user["email"][:user["email"].find("@")]}}!</h1>
+    <h2>You are currently registered for a total of {{user_hours}} community service hours</h2>
+    <ul>
+      {%for x in ev_dict%}
+      <li>
+        <form method='POST' action='/opportunity'>
+          <p>Opportunity:  {{ev_dict[x]['name']}} 
+            <input type='hidden' value={{x}} name='decision'>
+            <input type='hidden' value={{user_email}} name='email'>
+            <input type='submit' value='View More'>
+          </p>
+        </form>
+      </li>
+      <hr>
+      {%endfor%}
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BisonHacks Submission</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='{{url_for("static", filename="css/style.css")}}'>
+  </head>
+  <body>
+    <div class="sign-in">
+      <form method='POST' action='/main'>
+        <input type='email' name='email' placeholder='yourname@email.com'>
+        <br>
+        <input type='password' name='password' placeholder='password' required>
+        <br>
+        <input type='submit' value='Submit'>
+        <p>Don't have an account yet? <a  href='/sign-up'>Sign Up</a></p>
+      </form>
+    </div>
+  </body>
+</html>
