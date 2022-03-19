@@ -6,6 +6,7 @@
     <link rel="stylesheet" href='{{url_for("static", filename="css/style.css")}}'>
   </head>
   <body>
+    <img src="" alt="opportunity-image">
     <h1> {{opp['name']}} </h1>
     <p> Desc {{opp['description']}} </p>
     <p> Organized by {{opp['planner']}} </p>
@@ -15,7 +16,7 @@
     <form method='POST' action='/update'>
       <input type='hidden' value={{user_email}} name='email'>
       <input type='hidden' value={{oppId}} name='oppId'>
-      <input type='submit' value='Register'>
+      <input type='submit' value='Register' class='button'>
     </form>
   </body>
 </html>

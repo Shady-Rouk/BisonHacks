@@ -1,3 +1,42 @@
-body{
-    background-color: red;
-}
+*{
+    margin: 0;
+  }
+  
+  .main-ul{
+    list-style-type: none;
+  }
+  
+  .main-li{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 60px 100px;
+    margin: 20px auto;
+  }
+  
+  body{
+    background-color: teal;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .sign-in input, .sign-up input{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  .main-li .button{
+    float: right;
+  }
+  
+  .button{
+    height: 50px;
+    width: 100px;
+    border-radius: 6px;
+    background-color: white;
+    color: teal;
+  }
+  
+  .hours{
+    padding: 20px 50px; 
+  }

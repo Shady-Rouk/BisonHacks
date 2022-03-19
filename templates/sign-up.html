@@ -6,17 +6,21 @@
     <link rel="stylesheet" href='{{url_for("static", filename="css/style.css")}}'>
   </head>
   <body>
-    <div class="sign-up">
-      <form method='POST' action='/create-to-main''>
-        <input type='email' name='email' placeholder='yourname@email.com'>
-        <br>
-        <input type='password' name='password' placeholder='password' required>
-        <br>
-        <input type='date' name='dob' placeholder='date of birth'>
-        <br>
-        <input type='submit' value='Submit'>
-        <p>Have an account already? <a href='/sign-in')>Sign In</a></p>
-      </form>
-    </div>
+    <center>
+      <h2>Sign Up for a X Account</h2>
+      <br>
+      <div class="sign-up">
+        <form method='POST' action='/create-to-main''>
+          <input type='email' name='email' placeholder='yourname@email.com'>
+          <br><br>
+          <input type='password' name='password' placeholder='password' required>
+          <br><br>
+          <input type='date' name='dob' placeholder='date of birth'>
+          <br><br>
+          <input type='submit' value='Submit'>
+          <p>Have an account already? <a href='/sign-in')>Sign In</a></p>
+        </form>
+      </div>
+    </center>
   </body>
 </html>
